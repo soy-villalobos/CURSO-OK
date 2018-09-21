@@ -28,9 +28,11 @@
             transform: scale(1.05) translateY(-.5rem);
             box-shadow: 0 2.5rem 4rem rgba($color-black, .5);
             z-index: 20;
-
-
-        }
+            -webkit-transform: scale(1.05) translateY(-.5rem);
+            -moz-transform: scale(1.05) translateY(-.5rem);
+            -ms-transform: scale(1.05) translateY(-.5rem);
+            -o-transform: scale(1.05) translateY(-.5rem);
+}
     }
     &:hover &__photo:not(:hover) {
         transform: scale(.95);
